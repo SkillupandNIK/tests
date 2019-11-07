@@ -10,4 +10,9 @@ function dominique() {
   return <h1> hello </h1>;
 }
 
+export function splitter(props) {
+  const [prenom, nom] = props.split(" ")
+  console.log({nom} " est le nom et " {prenom} " est le prenom")
+}
+
 ReactDOM.render(<dominique />, document.getElementById("root"));

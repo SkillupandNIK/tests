@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import Maclasse from "./Maclasse";
-import { normaliser, compter } from "./fonctions";
+import { normaliser, compter, splitter } from "./fonctions";
 
 import "./styles.css";
 
@@ -15,6 +15,7 @@ function App() {
     <div className="App">
       <Maclasse />
       <fonctions />
+      <splitter {"hello word"}/>
     </div>
   );
 }
