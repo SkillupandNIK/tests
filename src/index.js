@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Maclasse />
       <fonctions />
-      <splitter {"hello word"}/>
+      <splitter props="hello world" />
     </div>
   );
 }
